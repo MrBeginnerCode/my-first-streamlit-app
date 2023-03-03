@@ -1,5 +1,3 @@
-!pip install streamlit
-!pip install protobuf==3.20.0
 import streamlit as st
 
 st.title("GIẢI PHƯƠNG TRÌNH BẬC NHẤT")
