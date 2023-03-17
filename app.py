@@ -1,6 +1,6 @@
-
-import streamlit as st
 import numpy as np
+import streamlit as st
+import plotly
 import sklearn
 import pickle
 filename = 'model.pickle'
@@ -13,4 +13,4 @@ x = x.reshape(1,-1)
 if st.button('Predict'):
   y_pred = model.predict(x)
   st.write("Revenue Prediction")
-  st.success(y_pred)
+  st.success(y_pred[0][0])
