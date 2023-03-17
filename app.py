@@ -3,7 +3,7 @@ import streamlit as st
 import plotly
 import sklearn
 import pickle
-filename = 'model.pickle'
+filename = 'model-2.pickle'
 
 model = pickle.load(open(filename, "rb"))
 st.title("Revenue Prediction")
